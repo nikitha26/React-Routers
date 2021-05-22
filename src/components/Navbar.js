@@ -6,13 +6,13 @@ function Navbar() {
     <>
       <nav className="navbar">
           <div className="navbar-container">
-              <Link to="/" className="navbar-logo">
+              <Link to="/" className="navbar-logo" style={{display: 'inline-block', width: '80%', height: '30%'}}>
                    TLVL <i class="fa fa-diamond" aria-hidden="true"></i>
               </Link>
-              <Link to="" className="">
+              <Link to="" className="list-items" style={{padding:'20px'}}>
                     HOME
               </Link>
-              <Link to="" className="">
+              <Link to="" className="list-items" >
                     ABOUT
               </Link>
           </div>
