@@ -9,13 +9,13 @@ function Cards() {
                 <div className="cards__wrapper">
                     <ul className='cards__items'>
                         <CardItem
-                            src={process.env.PUBLIC_URL +'/img-1.jpg'}
+                            src='http://localhost:3000/React-Routers/static/media/img-1.ebbc1d41.jpg'
                             text='Explore the hidden waterfall deep inside the Amazon Jungle'
                             label='Adventure'
                             path='/services'
                         />
                         <CardItem
-                            src='images/img-2.jpg'
+                            src='http://localhost:3000/React-Routers/static/media/img-1.ebbc1d41.jpg'
                             text='Travel through the Islands of Bali in a Private Cruise'
                             label='Luxury'
                             path='/services'
