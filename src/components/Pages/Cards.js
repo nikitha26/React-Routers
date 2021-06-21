@@ -16,7 +16,7 @@ function Cards() {
                             path='/services'
                         />
                         <CardItem
-                            src='http://localhost:3000/React-Routers/static/media/img-1.ebbc1d41.jpg'
+                            src={"/images/img-2.jpg"}
                             text='Travel through the Islands of Bali in a Private Cruise'
                             label='Luxury'
                             path='/services'
