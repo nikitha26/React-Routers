@@ -22,6 +22,7 @@ function Signup(){
 
      return (
         <React.Fragment>
+             
             <CssBaseline />
                <Container maxWidth="sm" className="form_block">
                    <h1 className="signup_heading">SIGN UP</h1>
