@@ -5,7 +5,7 @@ import CardItem from './CardItem';
 function Cards() {
     return (
         <div className="cards">
-            {/* <img src="/images/new.jpg"/> */}
+            <img src="/images/new.jpg"/>
             <h1>Check out these EPIC Destinations!</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
@@ -17,7 +17,7 @@ function Cards() {
                             path='/services'
                         />
                         <CardItem
-                            src="http://localhost:3000/React-Routers/static/media/img-1.ebbc1d41.jpg"
+                            src='http://localhost:3000/React-Routers/static/media/img-1.ebbc1d41.jpg'
                             text='Travel through the Islands of Bali in a Private Cruise'
                             label='Luxury'
                             path='/services'
@@ -34,7 +34,7 @@ function Cards() {
               src='http://localhost:3000/React-Routers/static/media/img-1.ebbc1d41.jpg'
               text='Experience Football on Top of the Himilayan Mountains'
               label='Adventure'
-              path='/products'
+              path='/about'
             />
             <CardItem
               src='http://localhost:3000/React-Routers/static/media/img-1.ebbc1d41.jpg'
