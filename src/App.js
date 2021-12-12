@@ -10,8 +10,9 @@ function App() {
   return (
     <Router>
       <Navbar/>
+      <Route exact path = "/home" component={App}> </Route>
+
       <Switch>
-        <Route path="/" exact component={Home}/>    
         <Route path="/services" exact component={Services}/>   
         <Route path="/about" exact component={About}/>    
         <Route path="/signup" exact component={SignUp}/>
