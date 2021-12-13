@@ -10,13 +10,14 @@ function App() {
   return (
     <Router>
       <Navbar/>
-      <Route exact path = "/home" component={App}> </Route>
-
       <Switch>
-        <Route path="/services" exact component={Services}/>   
-        <Route path="/about" exact component={About}/>    
-        <Route path="/signup" exact component={SignUp}/>
-
+        <Route exact path="/" component={Home} /> 
+        <Route path="/services" component={Services}/>   
+        <Route path="/about" component={About}/>    
+        <Route path="/signup" component={SignUp}/>
+        <Route path="*">
+          <Redirect to="/" />
+        </Route>
       </Switch>
     </Router>
     
