@@ -8,6 +8,8 @@ import SignUp from './components/Signup';
 
 function App() {
   return (
+
+        
     <Router>
       <Navbar/>
       <Switch>

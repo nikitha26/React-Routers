@@ -5,7 +5,6 @@ import CardItem from './CardItem';
 function Cards() {
     return (
         <div className="cards">
-            <img src="/images/new.jpg"/>
             <h1>Check out these EPIC Destinations!</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
